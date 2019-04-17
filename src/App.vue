@@ -9,9 +9,6 @@
     <div class="quotes" v-show="logout"><img src=./assets/quotes.jpg width=100% height=100% /></div>
 
     <router-view @authenticated="setAuthenticated"/>
-    <div class="footer">
-      <page-footer/>
-    </div>
   </div>
 </template>
 
