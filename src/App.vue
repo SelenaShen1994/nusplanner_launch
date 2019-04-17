@@ -21,7 +21,8 @@ import PageFooter from "@/components/Footer.vue";
 export default {
   name: "App",
   components: {
-    PageHeader
+    PageHeader,
+    PageFooter
   },
   data() {
     return {
